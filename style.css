@@ -1,0 +1,76 @@
+.centering1{ /* centering elements with display:block, such as the google logo */
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:61px;
+}
+
+.centering2{ /* centering the 'Google Search' and 'I'm Feeling Lucky' buttons */
+	display:inline-block;
+	width:239px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+}
+
+#navbar > li{ /* takes list of navbar items and positions them horizontally */
+	display:inline-block;
+	color:#404040;
+	font:13px Arial, sans-serif;
+	margin-left:5.5px;
+	margin-right:5.5px;
+	margin-top:-17px;	
+	position:relative;
+	left:79.65%;
+}
+
+#searchbox{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:22.5px;
+	margin-bottom:-15px;
+	height:26px;
+	width:573px;
+	border:1px solid #CFCFCF;
+}
+
+#button{
+	margin: 6.5px;
+	padding:8px;
+	border:1px solid #CFCFCF;
+	background-color:#F1F1F1;
+	font:11px Arial, sans-serif;
+	font-weight:bold;
+	color:#484848;
+	border-radius:2px;
+	text-align:;
+}
+
+div{
+	border:1px solid black;
+
+}
+
+img{
+	display:inline-block;
+	margin:auto;
+}
+
+#footer{
+	border:1px solid #CFCFCF;
+	background-color:#F1F1F1;
+	width:100%;
+	height:39.5px;
+	position:absolute;
+	bottom:0;
+	margin-left:-10px;
+
+
+}
+
+#funfactoid{
+	font:13px Arial, sans-serif;
+	margin-top:-4.5px;
+}
