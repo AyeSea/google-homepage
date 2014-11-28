@@ -6,30 +6,34 @@
 	</head>
 
 	<body>
-		<ul id="navbar_top">
-			<li><a href="">+Andrew</a></li>
-			<li><a href="">Gmail</a></li>
-			<li><a href="">Images</a></li>
-			<li id="apps_icon"><a href=""><img src="apps.png" alt="Apps"/></a></li>
-			<li id="notifications_icon"><a href=""><img src="notification.png" alt="Notifications"/></a></li>
-			<li id="profile_icon"><a href=""><img src="user.png" alt="Your Profile"/></a></li>
-		</ul>
+		<div id="header">
+			<ul id ="navbar_top">
+				<li><a href="">+Andrew</a></li>
+				<li><a href="">Gmail</a></li>
+				<li><a href="">Images</a></li>
+				<li id="apps_icon"><a href=""><img src="images/apps.png" alt="Apps"/></a></li>
+				<li id="notifications_icon"><a href=""><img src="images/notification.png" alt="Notifications"/></a></li>
+				<li id="profile_icon"><a href=""><img src="images/user.png" alt="Your Profile"/></a></li>
+			</ul>
+		</div>
 
-		<img id="google_logo" src="google.png" alt="Google"/>
-		<form action="somescript.php" method="get">
-			<input id="searchbox" type="text" name="SearchQuery"/>
-			<br/>
-			<div class="centering">
+		<div id="page_contents">
+			<img id="google_logo" src="images/google.png" alt="Google"/>
+			<form action="somescript.php" method="get">
+				<input id="searchbox" type="text" name="SearchQuery"/>
+				<br/>
+				<div class="centering">
 				<input id="button" type="submit" value="Google Search"/>
 				<input id="button" type="submit" value="I'm Feeling Lucky"/>
+				</div>
+			</form>
+
+			<br/>
+			<br/>
+
+			<div id="fun_factoid">
+				OK Google, <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=how+many+calories+are+in+pumpkin+pie%3F">how many calories are in pumpkin pie?</a>
 			</div>
-		</form>
-
-		<br/>
-		<br/>
-
-		<div id="fun_factoid">
-			OK Google, <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=how+many+calories+are+in+pumpkin+pie%3F">how many calories are in pumpkin pie?</a>
 		</div>
 
 		<div id="footer">
