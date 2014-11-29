@@ -1,17 +1,23 @@
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
 #header{
 	display:block;
 	width:84em;
-	height:39.5px;
-	margin-left:-1em;
-	margin-right:-1em;
-	margin-top:-0.51em;
-	border:1px solid red;
-	position:absolute;
+	height:2.5em;
+	margin:auto;
 	top:0;
+	padding-left:0.425em;
+	padding-right:0.425em;
 }
 
 #navbar_top{
 	display:inline-block;
+	position:absolute;
+	width:75%;
 }
 
 #navbar_top > li{ /* takes list of top navigation bar items and positions them inline horizontally */
@@ -20,19 +26,20 @@
 	font:13px Arial, sans-serif;
 	margin-left:5.5px;
 	margin-right:5.5px;
-	margin-top:-12px;	
+	margin-top:-12px;
 	position:relative;
-	left:72.5em;
+	left:75em;
 }
 
 #apps_icon{
-	top:2.5px;
-	padding-left:5px;
-	padding-right:5px;
+	top:0.25em;
+	padding-left:0.75em;
+	padding-right:0.75em;
 }
 
 #notifications_icon{
 	top:6px;
+	padding-right:0.5em;
 }
 
 #profile_icon{
@@ -42,13 +49,19 @@
 #page_contents{
 	display:block;
 	width:84em;
+	margin:auto;
+	padding-top:0.85em;
+	padding-left:0.425em;
+	padding-right:0.425em;
+	position:absolute;
 }
 
 #google_logo{ /* centering Google logo and sizing it depending on user screen size */
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:10em;
+	margin-top:7.125em;
+	padding-top:1.5em;
 	height:6em;
 	width:17.235492em;
 }
@@ -64,6 +77,15 @@
 	border:1px solid #CFCFCF;
 }
 
+#voice_icon{
+	display:inline-block;
+	z-index:1;
+	width:1em;
+	margin-left:58.5em;
+	margin-top:-1.5em;
+	opacity:0.625;
+	height:1.35em;
+}
 
 .centering{ /* centering the 'Google Search' and 'I'm Feeling Lucky' buttons */
 	width:239px;
@@ -79,7 +101,7 @@
 	font:11px Arial, sans-serif;
 	font-weight:bold;
 	color:#484848;
-	border-radius:2px;
+	border-radius:3.25px;
 	text-align:;
 }
 
@@ -95,13 +117,14 @@
 	display:block;
 	border:1px solid #e4e4e4;
 	background-color:#F1F1F1;
-	width:84em;
-	height:39.5px;
-	position:absolute;
-	bottom:0;
-	margin-left:-1em;
-	margin-right:-1em;
-	padding-bottom:0;
+	width:100%;
+	height:2em;
+	bottom:0%;
+	margin:auto;
+	padding-bottom:0.625em;
+	padding-right:0.425em;
+	padding-left:0.425em;
+	position:absolute;	
 }
 
 #navbar_bottom_left{
@@ -135,7 +158,7 @@
 	margin-right:15px;
 	position:relative;
 	top:-4px;
-	left:420%;
+	left:62.5em;
 }
 
 #navbar_bottom_right > li:first-child{
@@ -162,3 +185,5 @@ a:hover{
 #fun_factoid > a{
 	color:blue;
 }
+
+/* update padding values for header/footer using em. */
